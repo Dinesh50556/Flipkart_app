@@ -6,17 +6,27 @@
     <title>Document</title>
     <style>
         body{
+            height: 500px;
+            width: 80%;
             background-color: bisque;
             margin: 40px;
+            border: 10px solid black;
         }
         h1{
             background-color: blanchedalmond;
             color: brown;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
             font-family: 'Courier New', Courier, monospace;
         }
         h2{
             background-color: darkgray;
             color: black;
+            
+        }
+        .ab{
+            width: 150px;
         }
         #programming_language{
             height: 50px;
@@ -31,6 +41,8 @@
         img{
             height: 70px;
             width: 70px;
+            margin-top: 10px;
+            margin-left: 500px;
             border-radius: 5px;
         }
     </style>
@@ -54,9 +66,9 @@
     <div id="programming_language">
         <h2>Java</h2>
     </div>
-    <div id="Skills">
-        <h2>HTML</h2>
-        <h2>CSS</h2>
+    <div id="Skills"> Skills
+        <h2 class="ab">HTML</h2>
+        <h2 class="ab">CSS</h2>
     </div>
 </body>
 </html>
